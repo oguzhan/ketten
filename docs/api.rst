@@ -1,16 +1,16 @@
-/goals
+/chains
 ======
-Goals resource. Actions like listing, adding and deleting goals happen here.
+Chains resource. Actions like listing, adding and deleting chains happen here.
 
 GET
 ---
-Retrieves the list of goals.
+Retrieves the list of chains.
 
 Request:
 
 ::
 
-    GET http://example.com/goals
+    GET http://example.com/chains
 
 Response:
 
@@ -32,13 +32,13 @@ Response:
 
 POST
 ----
-Adds a new goal to the calendar.
+Adds a new chain to the calendar.
 
 Request:
 
 ::
 
-    POST http://example.com/goals
+    POST http://example.com/chain
 
 Request body:
 
@@ -51,28 +51,28 @@ Request body:
 
 DELETE
 ------
-Deletes all goals.
+Deletes all chains.
 
 Request:
 
 ::
 
-    DELETE http://example.com/goals
+    DELETE http://example.com/chains
 
 
-/goals/<id>
+/chains/<id>
 ===========
-Details about a specific goal.
+Details about a specific chain.
 
 GET
 ---
-Retrieve details of goal with specified <id>.
+Retrieve details of chain with specified <id>.
 
 Request:
 
 ::
 
-   GET http://example.com/goals/1
+   GET http://example.com/chains/1
 
 Response:
 
@@ -94,15 +94,15 @@ Response:
         "record_streak": 11
     }
 
-PUT
----
-Update the title or the starting date of a goal.
+PATCH
+-----
+Update the title or the starting date of a chain.
 
 Request:
 
 ::
 
-    PUT http://example.com/goals/1
+    PATCH http://example.com/chains/1
 
 Request body:
 
@@ -115,26 +115,26 @@ Request body:
 
 DELETE
 ------
-Delete goal with <id>.
+Delete chain with <id>.
 
 Request:
 
 ::
 
-   DELETE http://example.com/goals/1
+   DELETE http://example.com/chains/1
 
 
-/goals/<id>/links
+/chains/<id>/links
 =================
 Links represent the links of the chain. They are essentially days that the goal was achieved.
 
 GET
 ---
-Retrieves all the links of the goal with <id>.
+Retrieves all the links of the chain with <id>.
 
 POST
 ----
-Creates a new link for the specified goal, for the current date unless the day is specified.
+Creates a new link for the specified chain , for the current date unless the day is specified.
 
 DELETE
 ------
