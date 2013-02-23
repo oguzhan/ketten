@@ -1,12 +1,12 @@
 from rest_framework import serializers
 
-from chain.models import Chain, Link
+from models import Chain, Link
 
 
 class LinkSerializer(serializers.ModelSerializer):
     class Meta:
         model = Link
-        fields = ('date')
+        fields = ('date',)
 
 
 class ChainSerializer(serializers.ModelSerializer):
@@ -15,4 +15,4 @@ class ChainSerializer(serializers.ModelSerializer):
     class Meta:
         model = Chain
         fields = ('id', 'title', 'starting_date', 'links')  # TODO streaks
-        read_only_fiels = ('id')
+        read_only_fields = ('id',)
