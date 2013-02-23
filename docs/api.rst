@@ -94,7 +94,7 @@ Response:
         "record_streak": 11
     }
 
-PATCH
+PUT
 -----
 Update the title or the starting date of a chain.
 
