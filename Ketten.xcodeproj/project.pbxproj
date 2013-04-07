@@ -1,0 +1,305 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B1353EBE17121A9C00F7D389 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B1353EBD17121A9C00F7D389 /* UIKit.framework */; };
+		B1353EC017121A9C00F7D389 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B1353EBF17121A9C00F7D389 /* Foundation.framework */; };
+		B1353EC217121A9C00F7D389 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B1353EC117121A9C00F7D389 /* CoreGraphics.framework */; };
+		B1353EC817121A9C00F7D389 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = B1353EC617121A9C00F7D389 /* InfoPlist.strings */; };
+		B1353ECA17121A9C00F7D389 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B1353EC917121A9C00F7D389 /* main.m */; };
+		B1353ECE17121A9C00F7D389 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B1353ECD17121A9C00F7D389 /* AppDelegate.m */; };
+		B1353ED017121A9C00F7D389 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = B1353ECF17121A9C00F7D389 /* Default.png */; };
+		B1353ED217121A9C00F7D389 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B1353ED117121A9C00F7D389 /* Default@2x.png */; };
+		B1353ED417121A9C00F7D389 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B1353ED317121A9C00F7D389 /* Default-568h@2x.png */; };
+		B1353ED717121A9C00F7D389 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B1353ED517121A9C00F7D389 /* MainStoryboard.storyboard */; };
+		B1353EDA17121A9C00F7D389 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B1353ED917121A9C00F7D389 /* ViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		B1353EBA17121A9C00F7D389 /* Ketten.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Ketten.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B1353EBD17121A9C00F7D389 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		B1353EBF17121A9C00F7D389 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		B1353EC117121A9C00F7D389 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		B1353EC517121A9C00F7D389 /* Ketten-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Ketten-Info.plist"; sourceTree = "<group>"; };
+		B1353EC717121A9C00F7D389 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		B1353EC917121A9C00F7D389 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B1353ECB17121A9C00F7D389 /* Ketten-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Ketten-Prefix.pch"; sourceTree = "<group>"; };
+		B1353ECC17121A9C00F7D389 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		B1353ECD17121A9C00F7D389 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		B1353ECF17121A9C00F7D389 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		B1353ED117121A9C00F7D389 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		B1353ED317121A9C00F7D389 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		B1353ED617121A9C00F7D389 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		B1353ED817121A9C00F7D389 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		B1353ED917121A9C00F7D389 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B1353EB717121A9B00F7D389 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B1353EBE17121A9C00F7D389 /* UIKit.framework in Frameworks */,
+				B1353EC017121A9C00F7D389 /* Foundation.framework in Frameworks */,
+				B1353EC217121A9C00F7D389 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B1353EB117121A9B00F7D389 = {
+			isa = PBXGroup;
+			children = (
+				B1353EC317121A9C00F7D389 /* Ketten */,
+				B1353EBC17121A9C00F7D389 /* Frameworks */,
+				B1353EBB17121A9C00F7D389 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B1353EBB17121A9C00F7D389 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B1353EBA17121A9C00F7D389 /* Ketten.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B1353EBC17121A9C00F7D389 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B1353EBD17121A9C00F7D389 /* UIKit.framework */,
+				B1353EBF17121A9C00F7D389 /* Foundation.framework */,
+				B1353EC117121A9C00F7D389 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B1353EC317121A9C00F7D389 /* Ketten */ = {
+			isa = PBXGroup;
+			children = (
+				B1353ECC17121A9C00F7D389 /* AppDelegate.h */,
+				B1353ECD17121A9C00F7D389 /* AppDelegate.m */,
+				B1353ED517121A9C00F7D389 /* MainStoryboard.storyboard */,
+				B1353ED817121A9C00F7D389 /* ViewController.h */,
+				B1353ED917121A9C00F7D389 /* ViewController.m */,
+				B1353EC417121A9C00F7D389 /* Supporting Files */,
+			);
+			path = Ketten;
+			sourceTree = "<group>";
+		};
+		B1353EC417121A9C00F7D389 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B1353EC517121A9C00F7D389 /* Ketten-Info.plist */,
+				B1353EC617121A9C00F7D389 /* InfoPlist.strings */,
+				B1353EC917121A9C00F7D389 /* main.m */,
+				B1353ECB17121A9C00F7D389 /* Ketten-Prefix.pch */,
+				B1353ECF17121A9C00F7D389 /* Default.png */,
+				B1353ED117121A9C00F7D389 /* Default@2x.png */,
+				B1353ED317121A9C00F7D389 /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B1353EB917121A9B00F7D389 /* Ketten */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B1353EDD17121A9C00F7D389 /* Build configuration list for PBXNativeTarget "Ketten" */;
+			buildPhases = (
+				B1353EB617121A9B00F7D389 /* Sources */,
+				B1353EB717121A9B00F7D389 /* Frameworks */,
+				B1353EB817121A9B00F7D389 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Ketten;
+			productName = Ketten;
+			productReference = B1353EBA17121A9C00F7D389 /* Ketten.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B1353EB217121A9B00F7D389 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = "Oguzhan Yayla";
+			};
+			buildConfigurationList = B1353EB517121A9B00F7D389 /* Build configuration list for PBXProject "Ketten" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = B1353EB117121A9B00F7D389;
+			productRefGroup = B1353EBB17121A9C00F7D389 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B1353EB917121A9B00F7D389 /* Ketten */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B1353EB817121A9B00F7D389 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B1353EC817121A9C00F7D389 /* InfoPlist.strings in Resources */,
+				B1353ED017121A9C00F7D389 /* Default.png in Resources */,
+				B1353ED217121A9C00F7D389 /* Default@2x.png in Resources */,
+				B1353ED417121A9C00F7D389 /* Default-568h@2x.png in Resources */,
+				B1353ED717121A9C00F7D389 /* MainStoryboard.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B1353EB617121A9B00F7D389 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B1353ECA17121A9C00F7D389 /* main.m in Sources */,
+				B1353ECE17121A9C00F7D389 /* AppDelegate.m in Sources */,
+				B1353EDA17121A9C00F7D389 /* ViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		B1353EC617121A9C00F7D389 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B1353EC717121A9C00F7D389 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		B1353ED517121A9C00F7D389 /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B1353ED617121A9C00F7D389 /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B1353EDB17121A9C00F7D389 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		B1353EDC17121A9C00F7D389 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B1353EDE17121A9C00F7D389 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Ketten/Ketten-Prefix.pch";
+				INFOPLIST_FILE = "Ketten/Ketten-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		B1353EDF17121A9C00F7D389 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Ketten/Ketten-Prefix.pch";
+				INFOPLIST_FILE = "Ketten/Ketten-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B1353EB517121A9B00F7D389 /* Build configuration list for PBXProject "Ketten" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B1353EDB17121A9C00F7D389 /* Debug */,
+				B1353EDC17121A9C00F7D389 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B1353EDD17121A9C00F7D389 /* Build configuration list for PBXNativeTarget "Ketten" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B1353EDE17121A9C00F7D389 /* Debug */,
+				B1353EDF17121A9C00F7D389 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B1353EB217121A9B00F7D389 /* Project object */;
+}
